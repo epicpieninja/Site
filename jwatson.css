@@ -1,12 +1,11 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;
+	font-family: Consistency;
 }
-
 header
 {
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(city.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(city.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -18,33 +17,24 @@ ul
 	padding-top: 70px;
 	padding-right: 40px;
 
-
 }
-
 ul li
 {
-
  display: inline-block;
 }
-
 ul li a
 {
-
 	text-decoration: none;
 	color: #fff;
 	padding: 30px 125px;
 	border: 1px solid transparent;
 transition: 0.6s ease;
 }
-
 ul li a:hover
 {
-
 	background-color: white;
 	color: black;
 }
-
-
 .title
 {
 	position: absolute;
@@ -52,13 +42,11 @@ ul li a:hover
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-
 .title h1{
 	color: white;
 	outline: black;
 	font-size: 90px;
 }
-
 .subtitle
 {
 	position: absolute;
@@ -70,4 +58,29 @@ ul li a:hover
 	color: white;
 	outline: black;
 	font-size: 40px;
+}
+
+.aboutme {
+position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.aboutme p{
+	color: white;
+	outline: black;
+	font-size: 30px;
+}
+
+.Contact{
+position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.Contact p{
+	color: white;
+	outline: black;
+	font-size: 30px;
 }
