@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Michael Reeves">
+  
+    <title>Michael Reeves Portfolio</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/portfolio.css" rel="stylesheet">
+
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+  <script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script>
+
+  <script src="js/portfolio.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Michael Reeves">
+  
+    <title>Michael Reeves Portfolio</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/portfolio.css" rel="stylesheet">
+
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+  <script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script>
+
+  <script src="js/portfolio.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head></head>
+
+<body data-new-gr-c-s-check-loaded="14.1010.0" data-gr-ext-installed="">
+
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper" class="">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick="$(&quot;#menu-close&quot;).click();">Navigation</a>
+            </li>
+            <li>
+                <a href="#topNav" onclick="$(&quot;#menu-close&quot;).click();">Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick="$(&quot;#menu-close&quot;).click();">About</a>
+            </li>
+            <li>
+                <a href="#services" onclick="$(&quot;#menu-close&quot;).click();">Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick="$(&quot;#menu-close&quot;).click();">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="$(&quot;#menu-close&quot;).click();">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+  <script type="text/javascript" src="js/headerScript.js"> </script><aside class="topNav nav-blue" id="topNav"><div class="container navBar"><a href="http://michaelreeves.us/"><h2>Home</h2> </a><a href="mailto:michaelreeves808@gmail.com?Subject=Hi%20Michael"><h2>E-Mail</h2> </a><a href="http://michaelreeves.us/resume.pdf"><h2>Resume</h2> </a><a href="https://www.youtube.com/channel/UCtHaxi4GTYDpJgMSGy7AeSw"><h2>YouTube</h2> </a></div></aside>
+  
+    <div id="top" class="pageHeader">
+        <div class="headerText">
+            
+            <h1><b>Michael Reeves</b></h1>
+            <h2>Full Stack Software Developer</h2>
+        </div>
+    </div>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h1 class="text-center">TL;DR</h1> 
+                    <p>
+                        I am a highly capable, full stack developer with experience programming everything from Web API's to Embedded systems. My diverse background across a wide range of problem domains allows me to approach issues in a pragmatic and all-encompassing way.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Development Services</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-desktop fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Desktop</strong>
+                                </h4>
+                                <p>C#/Java Desktop Application Development</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-external-link fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Web</strong>
+                                </h4>
+                                <p>From static sites to full scale Web Applications with ASP.NET MVC</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mobile fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Mobile</strong>
+                                </h4>
+                                <p>Developing powerful mobile Apps, with or without a backend</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-database fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Database</strong>
+                                </h4>
+                                <p>Database/Mock Database Systems Creation, Management &amp; Interfacing</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>My Work/ Articles</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="pages/LaserSystem.html">
+                                    <img class="img-portfolio img-responsive" src="img/laserThumb.PNG">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="pages/Doorman.html">
+                                    <img class="img-portfolio img-responsive" src="img/doormanThumb.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="pages/IssuesAspAPI.html">
+                                    <img class="img-portfolio img-responsive" src="img/apiThumb.png">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <footer>
+        <div id="contact" class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Michael Reeves Software Development</strong>
+                    </h4>
+                    
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:michaelreeves808@gmail.com">michaelreeves808@gmail.com</a></li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/michael-reeves-619462123/"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://twitter.com/michaelreeves08"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCtHaxi4GTYDpJgMSGy7AeSw"><i class="fa fa-youtube-play fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright ©  michaelreeves.us 2017</p>
+                    <a href="pages/privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#topNav" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+
+</body>
+
+</html>
