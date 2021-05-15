@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project</title>
+	 <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+	<header>
+		
+		  <dir class="main">
+      <ul>
+        <li><a href="JoshuaWatsonCV.pdf">CV       </a></li>
+        <li><a href="mailto:watsonjosh298@gmail.com?Subject=Hi%20Josh">Send a Email </a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </dir>
+
+	
+	<dir class="title"><h1> My Project</h1></dir>
+	<dir class="game1">	
+			<p> During my free time, I have learned and created a game using the Unity game engine in combo with C# scripts. The game is a simple 2d platformer to collect a set of "good coins" while avoiding the "bad coins" and completing within a time limit.
+			<br>
+<br>
+			Link to the application: 
+			<a href="https://play.google.com/store/apps/details?id=com.TestPieGame.HANK2D"> Click here </a><br>
+<br>
+			Withing the scripts many different actions have been created to accomplish many tasks for example : <br><br>
+			*snip*<br>
+			 void Update()
+			    {<br>
+			        GameObject[] coins = GameObject.FindGameObjectsWithTag("Coins");<br>
+			        //Debug.Log(coins.Length + " coin(s) remain(s)");<br>
+			        if (coins.Length == 0)<br>
+			        {<br>
+			            nextlevel.SetActive(true);<br>
+			            control.SetActive(false);
+			        }<br>
+			    }<br>
+			    */snip*
+			<br>
+			<br>
+			The script above is the script used for letting the game know when the player has collected all the "good coins", a simple if statement is being used to let the game know if all gameObject with the tag "Coins" is been collected by the player to disable the game control UI ( control.SetActive(false); ) and enable the menu UI  (nextlevel.SetActive(true);) Signinling for the level is completed. 
+			 </p>
+	</dir>
+
+
+</header>
+</body>
+</html>

@@ -12,6 +12,7 @@ header
 	
 
 }
+
 ul
 {
 	float: right;
@@ -38,82 +39,38 @@ ul li a:hover
 	color: black;
 }
 
-
-
-h1{
-
-	color: white;
-	outline: black;
-	font-size: 5vw;
-	max-width: 800px;
-}
-
-.title
-{
+.title{
 	position: absolute;
-	top: 50%;
+	top: 15%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+}
+.title h1{
 
-
+	color: white;
+	outline: black;
+	font-size: 4vw;
+	max-width: 800px;
 }
 
-.Linked{
-	top: 0%;
-}
+.game1 {
 
-
-
-.subtitle
-{
 	position: absolute;
-	top: 56%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-
-
-}
-.subtitle h3{
-	color: white;
-	outline: black;
-	font-size: 3vw;
-	max-width: 800px;
-	
-}
-
-
-
-
-
-.aboutme {
-position: absolute;
-	top: 80%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-
-	 
-}
-.aboutme p{
-	color: white;
-	outline: black;
-	font-size: 1.35rem;
-	max-width: 800px;
-	max-height: 800px
-	
-}
-
-.Contact{
-position: absolute;
-	top: 90%;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
 
-.Contact p{
+.game1 p{
 	color: white;
 	outline: black;
-	font-size: 1.35rem;
+	font-size: 1.25vw;
 	max-width: 800px;
-	max-height: 800px
-	
+
+}
+.game1 a{
+color: red;
+background-color: transparent;
+text-decoration: none;
+
 }
