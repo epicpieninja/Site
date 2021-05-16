@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Consistency;
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(city.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+
+}
+ul
+{
+	float: right;
+	list-style-type: none;
+	padding-top: 70px;
+	padding-right: 40px;
+
+}
+ul li
+{
+ display: inline-block;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px 125px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+
+
+h1{
+
+	color: white;
+	outline: black;
+	font-size: 5vw;
+	
+}
+
+h3{
+
+	color: white;
+	outline: black;
+	font-size: 3vw;
+	
+
+}
+
+.title 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+.aboutme {
+position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	 
+}
+.aboutme p{
+	color: white;
+	outline: black;
+	font-size: 1.35vw;
+	
+	
+}
+
+.Contact{
+position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.Contact p{
+	color: white;
+	outline: black;
+	font-size: 1.35vw;
+	min-width: 1200PX
+	
+}
+
+.Linked{
+img {
+  border-radius: 8px;
+}
+
+}
+
+
