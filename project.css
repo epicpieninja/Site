@@ -18,7 +18,7 @@ ul
 	float: right;
 	list-style-type: none;
 	padding-top: 70px;
-	padding-right: 190px;
+	padding-right: 40px;
 
 }
 ul li
@@ -41,16 +41,20 @@ ul li a:hover
 
 .title{
 	position: absolute;
-	top: 15%;
-	left: 50%;
+	top: 20%;
+	left: 35%;
 	transform: translate(-50%,-50%);
+	transform: scale(1);
+
 }
 .title h1{
 
 	color: white;
 	outline: black;
-	font-size: 4vw;
-	max-width: 800px;
+	font-weight: 400;
+	font-size: 2vw;
+	min-width: 1200PX
+line-height: 1.6;
 }
 
 .game1 {
@@ -59,14 +63,16 @@ ul li a:hover
 	top: 55%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	
 }
 
 .game1 p{
 	color: white;
 	outline: black;
-	font-size: 2vw;
-	max-width: 1000px;
-	font-size: max(1vw,10px)
+font-weight: 400;
+font-size: 0.7vw;
+min-width: 1200PX
+line-height: 1.6;
 
 
 

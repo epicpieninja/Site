@@ -45,44 +45,26 @@ h1{
 	color: white;
 	outline: black;
 	font-size: 5vw;
-	max-width: 800px;
+	
 }
 
-.title
+h3{
+
+	color: white;
+	outline: black;
+	font-size: 3vw;
+	
+
+}
+
+.title 
 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 
-
 }
-
-.Linked{
-	top: 0%;
-}
-
-
-
-.subtitle
-{
-	position: absolute;
-	top: 56%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-
-
-}
-.subtitle h3{
-	color: white;
-	outline: black;
-	font-size: 3vw;
-	max-width: 800px;
-	
-}
-
-
-
 
 
 .aboutme {
@@ -96,9 +78,8 @@ position: absolute;
 .aboutme p{
 	color: white;
 	outline: black;
-	font-size: 1.35rem;
-	max-width: 800px;
-	max-height: 800px
+	font-size: 1.35vw;
+	
 	
 }
 
@@ -112,8 +93,16 @@ position: absolute;
 .Contact p{
 	color: white;
 	outline: black;
-	font-size: 1.35rem;
-	max-width: 800px;
-	max-height: 800px
+	font-size: 1.35vw;
+	min-width: 1200PX
 	
 }
+
+.Linked{
+img {
+  border-radius: 8px;
+}
+	
+}
+
+
