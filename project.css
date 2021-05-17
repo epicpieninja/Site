@@ -24,6 +24,7 @@ ul
 ul li
 {
  display: inline-block;
+  overflow: hidden;
 }
 ul li a
 {
@@ -41,7 +42,7 @@ ul li a:hover
 
 .title{
 	position: absolute;
-	top: 20%;
+	top: 30%;
 	left: 35%;
 	transform: translate(-50%,-50%);
 	transform: scale(1);
@@ -52,9 +53,8 @@ ul li a:hover
 	color: white;
 	outline: black;
 	font-weight: 400;
-	font-size: 2vw;
-	min-width: 1200PX
-line-height: 1.6;
+	font-size: 4vw;
+
 }
 
 .game1 {
@@ -71,10 +71,7 @@ line-height: 1.6;
 	outline: black;
 font-weight: 400;
 font-size: 0.7vw;
-min-width: 1200PX
-line-height: 1.6;
-
-
+min-width: 300PX;
 
 }
 .game1 a{
@@ -83,3 +80,31 @@ background-color: transparent;
 text-decoration: none;
 
 }
+
+@media (max-width:1024px)
+{
+	.game1 p{
+		font-size: 1.5vw;
+	}
+
+
+	.title h1{
+	font-size: 5vw;
+	}
+
+}
+
+
+@media (max-width:600px)
+{
+	.game1 p{
+		font-size: 2vw;
+	}
+
+
+	.title h1{
+	font-size: 6vw;
+	}
+
+}
+	
